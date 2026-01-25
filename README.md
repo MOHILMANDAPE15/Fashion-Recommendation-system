@@ -7,7 +7,10 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-EE4C2C.svg)](https://pytorch.org)
 [![Flask](https://img.shields.io/badge/Flask-2.3.3-000000.svg)](https://flask.palletsprojects.com)
 
-A comprehensive AI-powered fashion recommendation system that analyzes facial features, age, and gender to provide personalized fashion suggestions. The system combines deep learning, computer vision, and web scraping to deliver tailored fashion recommendations.
+A comprehensive AI-powered fashion recommendation system that analyzes facial features, age, and gender to provide personalized fashion suggestions. The system combines deep learning, computer vision, and web scraping to deliver tailored fashion recommendations. ## Project Demo
+
+[![Watch the video](https://img.youtube.com/vi/LyuEf2Xhhhg/0.jpg)](https://www.youtube.com/watch?v=LyuEf2Xhhhg)
+
 
 ## 📋 Table of Contents
 
