@@ -7,10 +7,13 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-EE4C2C.svg)](https://pytorch.org)
 [![Flask](https://img.shields.io/badge/Flask-2.3.3-000000.svg)](https://flask.palletsprojects.com)
 
-A comprehensive AI-powered fashion recommendation system that analyzes facial features, age, and gender to provide personalized fashion suggestions. The system combines deep learning, computer vision, and web scraping to deliver tailored fashion recommendations. ## Project Demo
+A comprehensive AI-powered fashion recommendation system that analyzes facial features, age, and gender to provide personalized fashion suggestions. The system combines deep learning, computer vision, and large language models to deliver tailored fashion recommendations based on user appearance and preferences.
+
+## Project Demo
 
 [![Watch the video](https://img.youtube.com/vi/LyuEf2Xhhhg/0.jpg)](https://www.youtube.com/watch?v=LyuEf2Xhhhg)
 
+---
 
 ## 📋 Table of Contents
 
@@ -29,6 +32,8 @@ A comprehensive AI-powered fashion recommendation system that analyzes facial fe
 - [🤝 Contributing](#-contributing)
 - [🙏 Acknowledgments](#-acknowledgments)
 - [📞 Support](#-support)
+
+---
 
 ## 🌟 Features
 
@@ -193,7 +198,7 @@ Fashion-Recommendation-system/
 - Images are processed and sent to the backend API
 
 ### 2. AI Analysis Pipeline
-- **Age & Gender Detection**: Deep learning models analyze the uploaded image
+- **Age & Gender Detection**: EfficientNet-B4-based deep learning model analyzes the uploaded image
 - **Facial Feature Extraction**: 16+ facial attributes are extracted and analyzed
 - **User Input Integration**: Height, weight, and occasion preferences are combined with AI analysis
 
@@ -281,13 +286,13 @@ Simply run the installation commands in the [Getting Started](#-getting-started)
 
 ### Model Files
 The system requires pre-trained models:
-- `age_gender_model.pth` - Age and gender classification (EfficientNet-B4 based)
+- `age_gender_model.pth` - **EfficientNet-B4-based** age and gender classification model
 - `celeba_imbalance_aware_classifier.pth` - Facial feature extraction (CelebA dataset)
 
 ## 📊 Technical Details
 
 ### Machine Learning Models
-- **Age/Gender Classification**: Custom CNN trained on UTKFace dataset
+- **Age/Gender Classification**: **EfficientNet-B4-based PyTorch model** trained on UTKFace dataset
 - **Facial Feature Extraction**: CelebA-based classifier for 16+ attributes
 - **Image Processing**: OpenCV for preprocessing and camera integration
 
@@ -334,5 +339,3 @@ Validation accuracy was tracked across 25 training epochs. The curves indicate t
 For support, email [neelshroff03@gmail.com  mohilmandpe33@gmail.com] or open an issue on GitHub.
 
 ---
-
-
